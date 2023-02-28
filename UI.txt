@@ -101,7 +101,7 @@ UITitle.Position = UDim2.new(0.125207946, 0, 0.046875, 0)
 UITitle.Size = UDim2.new(0, 135, 0, 32)
 UITitle.Font = Enum.Font.GothamBlack
 UITitle.Text = "Default Title"
-UITitle.TextColor3 = Color3.fromRGB(46,0,84)
+UITitle.TextColor3 = Color3.fromRGB(173,106,250)
 UITitle.TextSize = 18
 UITitle.TextScaled = true;
 
@@ -169,9 +169,9 @@ function lib:NewTab(name, desc)
 	TabTitle.Size = UDim2.new(1, 0, 1, 0)
 	TabTitle.Font = Enum.Font.GothamBold
 	TabTitle.Text = name
-	TabTitle.TextColor3 = #lib.Tabs == 0 and Color3.fromRGB(46,0,84) or Color3.fromRGB(255,255,255) -- SELECTED: Color3.fromRGB(105, 108, 255)
+	TabTitle.TextColor3 = #lib.Tabs == 0 and Color3.fromRGB(173,106,250) or Color3.fromRGB(255,255,255) -- SELECTED: Color3.fromRGB(105, 108, 255)
 	TabTitle.TextSize = 14.000
-	TabTitle.TextStrokeColor3 = Color3.fromRGB(46,0,84)
+	TabTitle.TextStrokeColor3 = Color3.fromRGB(173,106,250)
 
 	local sectionBG = Instance.new("Frame")
 	sectionBG.BackgroundColor3 = Color3.fromRGB(24,24,24)
@@ -193,7 +193,7 @@ function lib:NewTab(name, desc)
 	SectionTitle.Size = UDim2.new(0, 129, 0, 49)
 	SectionTitle.Font = Enum.Font.SourceSansItalic
 	SectionTitle.Text = name
-	SectionTitle.TextColor3 = Color3.fromRGB(46,0,84)
+	SectionTitle.TextColor3 = Color3.fromRGB(173,106,250)
 	SectionTitle.TextSize = 24.000
 	SectionTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -206,7 +206,7 @@ function lib:NewTab(name, desc)
 	Description.Size = UDim2.new(0, 129, 0, 49)
 	Description.Font = Enum.Font.SourceSansSemibold
 	Description.Text = desc or ""
-	Description.TextColor3 = Color3.fromRGB(80,80,80)
+	Description.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Description.TextSize = 20.000
 	Description.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -289,12 +289,12 @@ function lib:NewTab(name, desc)
 		local ToggleText_4 = Instance.new("TextLabel")
 		ToggleText_4.Name = "ToggleText"
 		ToggleText_4.Parent = Button
-		ToggleText_4.BackgroundColor3 = Color3.fromRGB(105,121,144)
+		ToggleText_4.BackgroundColor3 = Color3.fromRGB(173,106,250)
 		ToggleText_4.BackgroundTransparency = 1.000
 		ToggleText_4.Size = UDim2.new(1, 0, 1, 0)
 		ToggleText_4.Font = Enum.Font.SourceSansSemibold
 		ToggleText_4.Text = name
-		ToggleText_4.TextColor3 = Color3.fromRGB(105,121,144)
+		ToggleText_4.TextColor3 = Color3.fromRGB(173,106,250)
 		ToggleText_4.TextSize = 16.000
 		Button.MouseButton1Down:Connect(function()
 			Button.BackgroundColor3 = Color3.fromRGB(32,32,32)
