@@ -45,7 +45,7 @@ bgCorner.Parent = BG
 --// Tab holder
 
 local TabBG = Instance.new("Frame")
-TabBG.BackgroundColor3 = Color3.fromRGB(17,0,31)
+TabBG.BackgroundColor3 = Color3.fromRGB(25,23,26)
 TabBG.Size = UDim2.fromOffset(183, 448)
 TabBG.Parent = BG
 
@@ -54,7 +54,7 @@ TabBGCorner.CornerRadius = UDim.new(0, 8)
 TabBGCorner.Parent = TabBG
 
 local Inliner = Instance.new("Frame")
-Inliner.BackgroundColor3 = Color3.fromRGB(17,0,31)
+Inliner.BackgroundColor3 = Color3.fromRGB(25,23,26)
 Inliner.Size = UDim2.fromOffset(126, 448)
 Inliner.BorderSizePixel = 0
 Inliner.Position = UDim2.fromScale(1, 0)
@@ -101,7 +101,7 @@ UITitle.Position = UDim2.new(0.125207946, 0, 0.046875, 0)
 UITitle.Size = UDim2.new(0, 135, 0, 32)
 UITitle.Font = Enum.Font.GothamBlack
 UITitle.Text = "Default Title"
-UITitle.TextColor3 = Color3.fromRGB(255,255,255)
+UITitle.TextColor3 = Color3.fromRGB(46,0,84)
 UITitle.TextSize = 18
 UITitle.TextScaled = true;
 
@@ -169,12 +169,12 @@ function lib:NewTab(name, desc)
 	TabTitle.Size = UDim2.new(1, 0, 1, 0)
 	TabTitle.Font = Enum.Font.GothamBold
 	TabTitle.Text = name
-	TabTitle.TextColor3 = #lib.Tabs == 0 and Color3.fromRGB(105, 108, 255) or Color3.fromRGB(70,70,70) -- SELECTED: Color3.fromRGB(105, 108, 255)
+	TabTitle.TextColor3 = #lib.Tabs == 0 and Color3.fromRGB(46,0,84) or Color3.fromRGB(255,255,255) -- SELECTED: Color3.fromRGB(105, 108, 255)
 	TabTitle.TextSize = 14.000
-	TabTitle.TextStrokeColor3 = Color3.fromRGB(105, 108, 255)
+	TabTitle.TextStrokeColor3 = Color3.fromRGB(46,0,84)
 
 	local sectionBG = Instance.new("Frame")
-	sectionBG.BackgroundColor3 = Color3.fromRGB(17,0,31)
+	sectionBG.BackgroundColor3 = Color3.fromRGB(24,24,24)
 	sectionBG.Position = UDim2.fromScale(0.284, 0.046)
 	sectionBG.Visible = #lib.Tabs == 0 and true or false
 	sectionBG.Size = UDim2.fromOffset(504, 410)
@@ -193,7 +193,7 @@ function lib:NewTab(name, desc)
 	SectionTitle.Size = UDim2.new(0, 129, 0, 49)
 	SectionTitle.Font = Enum.Font.SourceSansItalic
 	SectionTitle.Text = name
-	SectionTitle.TextColor3 = Color3.fromRGB(255,255,255)
+	SectionTitle.TextColor3 = Color3.fromRGB(46,0,84)
 	SectionTitle.TextSize = 24.000
 	SectionTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -206,7 +206,7 @@ function lib:NewTab(name, desc)
 	Description.Size = UDim2.new(0, 129, 0, 49)
 	Description.Font = Enum.Font.SourceSansSemibold
 	Description.Text = desc or ""
-	Description.TextColor3 = Color3.fromRGB(255,255,255)
+	Description.TextColor3 = Color3.fromRGB(80,80,80)
 	Description.TextSize = 20.000
 	Description.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -337,7 +337,7 @@ function lib:NewTab(name, desc)
 		ToggleText.Size = UDim2.new(0, 228, 0, 50)
 		ToggleText.Font = Enum.Font.SourceSansSemibold
 		ToggleText.Text = name
-		ToggleText.TextColor3 = Color3.fromRGB(255,255,255)
+		ToggleText.TextColor3 = Color3.fromRGB(105, 122, 141)
 		ToggleText.TextSize = 18.000
 		ToggleText.TextTransparency = 0.340
 		ToggleText.TextXAlignment = Enum.TextXAlignment.Left
@@ -442,7 +442,7 @@ function lib:NewTab(name, desc)
 		SliderText.BackgroundTransparency = 1;
 		SliderText.TextSize = 18;
 		SliderText.AnchorPoint = Vector2.new(1,0)
-		SliderText.TextColor3 = Color3.fromRGB(255,255,255)
+		SliderText.TextColor3 = Color3.fromRGB(105,122,141)
 		SliderText.Font = Enum.Font.SourceSansSemibold
 		SliderText.Position = UDim2.new(0,16,0.2, 0)
 		SliderText.TextXAlignment = Enum.TextXAlignment.Center
@@ -455,7 +455,7 @@ function lib:NewTab(name, desc)
 		SliderValue.TextSize = 18
 		SliderValue.Parent = Slider
 		SliderValue.Position = UDim2.new(0.8,0,0.16,0)
-		SliderValue.TextColor3 = Color3.fromRGB(255,255,255)
+		SliderValue.TextColor3 = Color3.fromRGB(105,122,141)
 		SliderValue.TextTransparency = 0.53
 		SliderValue.Font = Enum.Font.SourceSansSemibold
 		SliderValue.BorderSizePixel = 0;
@@ -529,7 +529,7 @@ function lib:NewTab(name, desc)
 
 		local DropdownText = Instance.new("TextLabel")
 		DropdownText.Parent = Dropdown
-		DropdownText.TextColor3 = Color3.fromRGB(255,255,255)
+		DropdownText.TextColor3 = Color3.fromRGB(105,122,141)
 		DropdownText.TextSize = 18;
 		DropdownText.BackgroundTransparency = 1;
 		DropdownText.Size = UDim2.new(0,228,0,50)
@@ -599,7 +599,7 @@ function lib:NewTab(name, desc)
 				OptionText.BackgroundTransparency = 1;
 				OptionText.Font = Enum.Font.SourceSansSemibold
 				OptionText.TextSize = 18
-				OptionText.TextColor3 = Color3.fromRGB(255,255,255)
+				OptionText.TextColor3 = Color3.fromRGB(105,122,141)
 				OptionText.TextTransparency = 0
 				OptionText.Position = UDim2.new(0.013, 0,0.5, 0)
 				OptionText.TextXAlignment = Enum.TextXAlignment.Left
@@ -637,7 +637,7 @@ function lib:NewTab(name, desc)
 
 		local DropdownText = Instance.new("TextLabel")
 		DropdownText.Parent = Dropdown
-		DropdownText.TextColor3 = Color3.fromRGB(255,255,255)
+		DropdownText.TextColor3 = Color3.fromRGB(105,122,141)
 		DropdownText.TextSize = 18;
 		DropdownText.BackgroundTransparency = 1;
 		DropdownText.Size = UDim2.new(0,228,0,50)
@@ -703,7 +703,7 @@ function lib:NewTab(name, desc)
 				OptionText.BackgroundTransparency = 1;
 				OptionText.Font = Enum.Font.SourceSansSemibold
 				OptionText.TextSize = 18
-				OptionText.TextColor3 = Color3.fromRGB(255,255,255)
+				OptionText.TextColor3 = Color3.fromRGB(105,122,141)
 				OptionText.TextTransparency = 0
 				OptionText.Position = UDim2.new(0.013, 0,0.5, 0)
 				OptionText.TextXAlignment = Enum.TextXAlignment.Left
@@ -750,7 +750,7 @@ function lib:NewTab(name, desc)
 	   BoxText.Position = UDim2.new(0.0313,0,0,25)
 	   BoxText.BackgroundTransparency = 1;
 	   BoxText.TextSize = 18;
-	   BoxText.TextColor3 = Color3.fromRGB(255,255,255)
+	   BoxText.TextColor3 = Color3.fromRGB(105,122,141)
 	   BoxText.Font = Enum.Font.SourceSansSemibold
 	   BoxText.TextXAlignment = Enum.TextXAlignment.Left;
 	   local pad = Instance.new("UIPadding",BoxText)
@@ -761,7 +761,7 @@ function lib:NewTab(name, desc)
 	   Box.Size = UDim2.new(0,333,0,50)
 	   Box.Position = UDim2.new(0.283,0,0,0)
 	   Box.BackgroundColor3 = Color3.fromRGB(24,24,24)
-	   Box.TextColor3 = Color3.fromRGB(255,255,255)
+	   Box.TextColor3 = Color3.fromRGB(105,122,141)
 	   Box.Font = Enum.Font.SourceSansSemibold
 	   Box.BorderSizePixel = 0;
 	   Box.TextSize = 16
