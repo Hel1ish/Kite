@@ -45,7 +45,7 @@ bgCorner.Parent = BG
 --// Tab holder
 
 local TabBG = Instance.new("Frame")
-TabBG.BackgroundColor3 = Color3.fromRGB(117,27,194)
+TabBG.BackgroundColor3 = Color3.fromRGB(33,0,61)
 TabBG.Size = UDim2.fromOffset(183, 448)
 TabBG.Parent = BG
 
@@ -54,7 +54,7 @@ TabBGCorner.CornerRadius = UDim.new(0, 8)
 TabBGCorner.Parent = TabBG
 
 local Inliner = Instance.new("Frame")
-Inliner.BackgroundColor3 = Color3.fromRGB(117,27,194)
+Inliner.BackgroundColor3 = Color3.fromRGB(33,0,61)
 Inliner.Size = UDim2.fromOffset(126, 448)
 Inliner.BorderSizePixel = 0
 Inliner.Position = UDim2.fromScale(1, 0)
@@ -174,7 +174,7 @@ function lib:NewTab(name, desc)
 	TabTitle.TextStrokeColor3 = Color3.fromRGB(105, 108, 255)
 
 	local sectionBG = Instance.new("Frame")
-	sectionBG.BackgroundColor3 = Color3.fromRGB(117,27,194)
+	sectionBG.BackgroundColor3 = Color3.fromRGB(33,0,61)
 	sectionBG.Position = UDim2.fromScale(0.284, 0.046)
 	sectionBG.Visible = #lib.Tabs == 0 and true or false
 	sectionBG.Size = UDim2.fromOffset(504, 410)
