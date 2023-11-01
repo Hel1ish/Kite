@@ -1,0 +1,6 @@
+Flask==2.0.2
+pymongo==4.0.1
+FlaskWebGUI==0.5.1
+ctypes==1.0.4
+bcrypt==3.2.0
+secrets==1.0.2
