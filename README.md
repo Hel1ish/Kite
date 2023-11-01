@@ -38,6 +38,6 @@ We welcome contributions from the community. Feel free to open issues, create pu
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Contact
-If you have any questions or need assistance with Kite, you can contact the project maintainer at your.email@example.com.
+If you have any questions or need assistance with Kite, you can contact the project maintainer at hellishisking@gmail.com!
 
 Happy simulating with Kite!
