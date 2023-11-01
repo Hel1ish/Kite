@@ -1,5 +1,5 @@
 <p align="center"><img src="https://media.discordapp.net/attachments/1123347493107798037/1169083374443446293/image04.gif?ex=65541cbc&is=6541a7bc&hm=bdd5a56597fee7af9253218856dab597aaa64642fa13a10206ea98e86ea2f182&=" alt="kite.gif"></p>
-## Kite - Digital Wallet Simulation
+Kite - Digital Wallet Simulation
 
 Kite is a digital wallet simulation project that replicates the functionality of a real-world digital wallet. It offers a range of features to explore and interact with digital currency and transactions.
 
