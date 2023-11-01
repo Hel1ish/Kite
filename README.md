@@ -25,7 +25,11 @@ Before you can run Kite, you need to have the following installed on your system
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/Hel1ish/kite.git```
+   git clone https://github.com/Hel1ish/kite.git
+
+2. Install dependencies
+   ```shell
+   pip install requirements.txt
    
 ### Contributing
 We welcome contributions from the community. Feel free to open issues, create pull requests, and help make Kite even better!
