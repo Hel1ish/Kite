@@ -35,7 +35,7 @@ Before you can run Kite, you need to have the following installed on your system
 We welcome contributions from the community. Feel free to open issues, create pull requests, and help make Kite even better!
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Eclipse Public License - v 2.0. See the LICENSE file for details.
 
 ### Contact
 If you have any questions or need assistance with Kite, you can contact the project maintainer at hellishisking@gmail.com!
