@@ -1,4 +1,4 @@
-# <main.py> <Kite Source Code, Developer: Govany Hanna>
+# <main.py> <Kite Source Code, Developer: hellish2pro>
 # <Imports>
 from flask import Flask, render_template, url_for, request, session, redirect, flash
 from pymongo import MongoClient
@@ -16,7 +16,7 @@ time = datetime.now()
 # <Definding app and variables>
 app = Flask(__name__)
 app.secret_key = "0c28fccd52814500a44013dd0e6a47b3"
-client = MongoClient('mongodb+srv://Xynx_Dev:rabMue6xhQJH7gNR@kite-cluster.ie2xvdk.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongourl')
 mong = client.get_database('Data')
 database = mong.UserData
 debug = False
